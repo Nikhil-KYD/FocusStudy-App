@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>^ ^ Library</title>
      <link rel="stylesheet" href="css/firstpage.css">
+     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
@@ -36,12 +37,45 @@
             <button onclick="changeTheme('Winter')">
                 Winter
             </button>
+            <button onclick="changeTheme('Cat playing')"">
+                Cat Playing
+            </button>
             
             </div>
 
         </div>
 
         </main>
+
+        <nav class="top-nav">
+
+    <button>
+        <i data-lucide="timer"></i>
+        <span>Timer</span>
+    </button>
+
+    <button>
+        <i data-lucide="music-2"></i>
+        <span>Ambient</span>
+    </button>
+
+    <button>
+        <i data-lucide="check-square"></i>
+        <span>Tasks</span>
+    </button>
+
+    <button>
+        <i data-lucide="chart-no-axes-column"></i>
+        <span>Progress</span>
+    </button>
+
+</nav>
+
+<script>
+    lucide.createIcons();
+</script>
+
+
 
         <script src="js/theme.js"> </script>
 

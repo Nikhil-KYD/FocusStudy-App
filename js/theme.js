@@ -45,10 +45,12 @@ function changeTheme(theme) {
     }
 
     else if (theme === "Study room") {
+            backgroundVideo.src = "video/cozyroom.mp4";
+        
 
-        document.body.style.backgroundImage =
-            "url('images/Studyroom.jpg')";
-
+    }
+    else if (theme === "Cat playing") {
+            backgroundVideo.src = "video/chill.mp4";
     }
 
 
