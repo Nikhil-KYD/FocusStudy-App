@@ -23,45 +23,31 @@ themeButton.addEventListener("click", function () {
 
 function changeTheme(theme) {
 
-    if (theme === "night") {
+    if (theme === "Forest") {
 
         document.body.style.backgroundImage =
-            "url('images/night.jpg')";
+            "url('images/Forest.jpg')";
 
     }
 
-    else if (theme === "coffee") {
+    else if (theme === "Bedroom") {
 
         document.body.style.backgroundImage =
-            "url('images/coffee.jpg')";
+            "url('images/BedRoomtheme.jpg')";
 
     }
 
-    else if (theme === "forest") {
+    else if (theme === "Winter") {
 
         document.body.style.backgroundImage =
-            "url('images/forest.jpg')";
+            "url('images/Winter.jpg')";
 
     }
 
-    else if (theme === "sunset") {
+    else if (theme === "Study room") {
 
         document.body.style.backgroundImage =
-            "url('images/sunset.jpg')";
-
-    }
-
-    else if (theme === "winter") {
-
-        document.body.style.backgroundImage =
-            "url('images/winter.jpg')";
-
-    }
-
-    else if (theme === "sakura") {
-
-        document.body.style.backgroundImage =
-            "url('images/sakura.jpg')";
+            "url('images/Studyroom.jpg')";
 
     }
 
