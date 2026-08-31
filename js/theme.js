@@ -25,8 +25,7 @@ function changeTheme(theme) {
 
     if (theme === "Forest") {
 
-        document.body.style.backgroundImage =
-            "url('images/Forest.jpg')";
+        backgroundVideo.src = "video/poki.mp4";
 
     }
 
