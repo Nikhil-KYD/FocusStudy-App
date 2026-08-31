@@ -166,3 +166,182 @@ transform: scale(1.05);
     width: 17px;
     height: 17px;
 }
+
+/* =========================
+   TIMER PANEL
+========================= */
+
+.timer-panel {
+    position: fixed;
+
+    top: 85px;
+    right: 25px;
+
+    width: 300px;
+
+    padding: 22px;
+
+    background: rgba(20, 20, 25, 0.65);
+    backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+
+    color: white;
+
+    z-index: 200;
+
+    display: none;
+}
+
+
+/* Timer header */
+
+.timer-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+
+.timer-header h2 {
+    margin: 0;
+
+    font-size: 20px;
+
+    font-weight: 500;
+}
+
+
+/* Close button */
+
+#closeTimer {
+    width: 32px;
+    height: 32px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.2s;
+}
+
+
+#closeTimer:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+
+/* Timer numbers */
+
+.timer-display {
+    text-align: center;
+
+    font-size: 55px;
+
+    font-weight: 500;
+
+    letter-spacing: 2px;
+
+    margin: 15px 0 25px;
+}
+
+
+/* Preset buttons */
+
+.timer-presets {
+    display: flex;
+
+    gap: 6px;
+
+    margin-bottom: 18px;
+}
+
+
+.timer-presets button {
+    flex: 1;
+
+    padding: 9px 5px;
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+.timer-presets button:hover {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+
+/* Start / Reset */
+
+.timer-controls {
+    display: flex;
+
+    gap: 8px;
+}
+
+
+.timer-controls button {
+    flex: 1;
+
+    padding: 11px;
+
+    border: none;
+
+    border-radius: 11px;
+
+    background: rgba(255, 255, 255, 0.1);
+
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 7px;
+
+    transition: 0.2s;
+}
+
+
+.timer-controls button:hover {
+    background: rgba(255, 255, 255, 0.18);
+
+    transform: translateY(-2px);
+}
+
+
+.timer-controls svg {
+    width: 16px;
+    height: 16px;
+}
