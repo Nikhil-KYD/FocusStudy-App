@@ -1,4 +1,14 @@
-# 🌙 FocusStudy
+<!DOCTYPE HTML>
+<html>
+  <head>
+    
+  </head>
+  <body>
+  <img src ="images/block2.png" style = "width: 70px;">
+
+
+
+#  FocusStudy
 
 > A cozy, immersive study space designed to help you focus, relax, and make studying a little more enjoyable.
 
