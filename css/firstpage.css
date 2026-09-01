@@ -345,3 +345,25 @@ transform: scale(1.05);
     width: 16px;
     height: 16px;
 }
+
+
+.randomcard {
+    
+   position: relative;
+    width: 100px;
+    height: 45px;
+    top: 20px;
+    left: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);;
+    border-radius: 16px;
+    background: transparent;
+    backdrop-filter: blur(12px);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+
+
+}

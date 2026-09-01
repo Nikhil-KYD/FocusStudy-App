@@ -31,15 +31,13 @@ function changeTheme(theme) {
 
     else if (theme === "Bedroom") {
 
-        document.body.style.backgroundImage =
-            "url('images/BedRoomtheme.jpg')";
+        backgroundVideo.src = "video/bedrooom.mp4";
 
     }
 
-    else if (theme === "Winter") {
+    else if (theme === "Snowy Night") {
 
-        document.body.style.backgroundImage =
-            "url('images/Winter.jpg')";
+        backgroundVideo.src = "video/winter.mp4";
 
     }
 
