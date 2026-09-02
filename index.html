@@ -38,10 +38,15 @@
         <!--Theme selector-->
         <div class="Theme-select">
 
-        <button id="themeButton">Theme</button>
+      <button id="themeButton" class="cd-theme-button">
+    <video class="CD-video" autoplay muted loop playsinline>
+        <source src="video/cd.mp4" type="video/mp4">
+    </video>
+</button>
+
         
         <div class="theme-menu" id="themeMenu">
-            <h3>Choose Theme</h3>
+            <h3>Choose Theme ^-^ </h3>
             <button onclick="changeTheme('Forest')">
                 Forest
             </button>
@@ -127,6 +132,12 @@
     </div>
 
 </div>
+
+<!--<div class="cd-player" id="cdPlayer">
+    <video class="CD-video" autoplay muted loop playsinline>
+        <source src="video/cd.mp4" type="video/mp4">
+    </video>
+</div>-->
 
 <script>
     lucide.createIcons();
