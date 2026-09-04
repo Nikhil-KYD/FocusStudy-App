@@ -49,7 +49,13 @@ function changeTheme(theme) {
     else if (theme === "Cat playing") {
             backgroundVideo.src = "video/chill.mp4";
     }
-
+    else if (theme === "Player") {
+        backgroundVideo.src = "video/player.mp4";
+    }
+    else if (theme === "Clouds") {
+        backgroundVideo.src = "video/clouds.mp4";
+    }
+    
 
     // Close menu after selecting
 
