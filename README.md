@@ -68,37 +68,13 @@ The idea is to create a digital study space that feels more like sitting in your
 
 Future versions may include:
 
-* 🎵 Ambient sound controls
-* 📋 Better task management
-* 📊 Detailed study statistics
-* 🔥 Study streaks
-* 💾 Saved preferences
-* 🎨 More interactive themes
-* 📱 Improved mobile experience
-
----
-
-## 📸 Preview
-
-> Screenshots and previews coming soon.
-
----
-
-## 💻 Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/voyagerelev-cmyk/FocusStudy-App.git
-```
-
-Open the project:
-
-```bash
-cd FocusStudy-App
-```
-
-Then open `index.html` using VS Code Live Server or another local development server.
+*  Ambient sound controls
+*  Better task management
+*  Detailed study statistics
+*  Study streaks
+*  Saved preferences
+*  More interactive themes
+*  Improved mobile experience
 
 ---
 
