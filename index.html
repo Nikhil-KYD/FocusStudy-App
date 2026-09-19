@@ -309,6 +309,71 @@
     ========================== -->
 
     <!-- Ambient panel will go here -->
+     <!-- =========================
+     AMBIENT PANEL
+========================= -->
+
+<div class="ambient-panel" id="ambientPanel">
+
+    <div class="ambient-header">
+
+        <h2>Ambient Sounds</h2>
+
+        <button id="closeAmbient" type="button">
+            <i data-lucide="x"></i>
+        </button>
+
+    </div>
+
+
+    <div class="ambient-sounds">
+
+        <button class="sound-button" data-sound="rain">
+            <i data-lucide="cloud-rain"></i>
+            <span>Rain</span>
+            <span class="sound-status">OFF</span>
+        </button>
+
+
+        <button class="sound-button" data-sound="fire">
+            <i data-lucide="flame"></i>
+            <span>Fireplace</span>
+            <span class="sound-status">OFF</span>
+        </button>
+
+
+        <button class="sound-button" data-sound="forest">
+            <i data-lucide="trees"></i>
+            <span>Forest</span>
+            <span class="sound-status">OFF</span>
+        </button>
+
+
+        <button class="sound-button" data-sound="ocean">
+            <i data-lucide="waves"></i>
+            <span>Ocean</span>
+            <span class="sound-status">OFF</span>
+        </button>
+
+    </div>
+
+
+    <div class="volume-control">
+
+        <i data-lucide="volume-2"></i>
+
+        <input
+            type="range"
+            id="ambientVolume"
+            min="0"
+            max="1"
+            step="0.01"
+            value="0.5"
+        >
+
+    </div>
+
+</div>
 
     <!-- Tasks panel will go here -->
 
