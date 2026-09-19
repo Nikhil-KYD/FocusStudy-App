@@ -1,161 +1,336 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "icon" type="image/png" href ="images/block2.png">
+
+    <link rel="icon" type="image/png" href="images/block2.png">
+
     <title>TooCozy.com</title>
-     <link rel="stylesheet" href="css/firstpage.css">
-     <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="css/firstpage.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
 
-    <video id="backgroundVideo" class="background-video" autoplay muted loop playsinline
-    poster="images/cozye.jpg">
-    <source src="video/cozyroom.mp4" type="video/mp4">
-</video>
+    <!-- =========================
+         BACKGROUND VIDEO
+    ========================== -->
+
+    <video
+        id="backgroundVideo"
+        class="background-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="images/cozye.jpg"
+    >
+        <source src="video/cozyroom.mp4" type="video/mp4">
+    </video>
+
+
+    <!-- =========================
+         MAIN PAGE
+    ========================== -->
+
     <main class="First-page">
 
 
-     <!---   <div class="randomcard">
+        <!-- =========================
+             THEME SELECTOR
+        ========================== -->
 
-            <button id ="randomButton">Start</button>
-            
-
-        </div>-->
-            
-
-
-    
-
-</div>
-
-        <!--heart pic-->
-        
-
-
-
-        <!--Theme selector-->
         <div class="Theme-select">
 
-      <button id="themeButton" class="cd-theme-button">
-    <video class="CD-video" autoplay muted loop playsinline>
-        <source src="video/cd.mp4" type="video/mp4">
-    </video>
-</button>
+            <!-- CD VIDEO BUTTON -->
 
-        
-        <div class="theme-menu" id="themeMenu">
-            <h3>Choose Theme ^-^</h3>
-            <button onclick="changeTheme('Forest')">
-                Forest
-            </button>
-            <button onclick="changeTheme('bedroom')">
-                Bedroom
-            </button>
-            <button onclick="changeTheme('Study room')">
-                Study room
-            </button>
-            <button onclick="changeTheme('Snowy Night')">
-                Snowy Night
-            </button>
-            <button onclick = "changeTheme('Player')">
-                CD Player
-            </button>
-            <button onclick ="changeTheme('Clouds')">
-                Cozy clouds
-            </button>
-            <button onclick="changeTheme('Cat playing')">
-                Cat Playing
+            <button
+                id="themeButton"
+                class="cd-theme-button"
+                type="button"
+            >
+
+                <video
+                    class="CD-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                >
+                    <source src="video/cd.mp4" type="video/mp4">
+                </video>
+
             </button>
 
-            
+
+            <!-- THEME MENU -->
+
+            <div
+                class="theme-menu"
+                id="themeMenu"
+            >
+
+                <h3>Choose Theme ^-^</h3>
+
+
+                <button
+                    type="button"
+                    onclick="changeTheme('Forest')"
+                >
+                    Forest
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="changeTheme('bedroom')"
+                >
+                    Bedroom
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="changeTheme('Study room')"
+                >
+                    Study room
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="changeTheme('Snowy Night')"
+                >
+                    Snowy Night
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="changeTheme('Player')"
+                >
+                    CD Player
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="changeTheme('Clouds')"
+                >
+                    Cozy Clouds
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="changeTheme('Cat playing')"
+                >
+                    Cat Playing
+                </button>
+
             </div>
 
         </div>
 
-        </main>
+    </main>
 
-        <nav class="top-nav">
 
-    <button id="timerButton">
-        <i data-lucide="timer"></i>
-        <span>Timer</span>
-    </button>
+    <!-- =========================
+         TOP NAVIGATION
+    ========================== -->
 
-    <button>
-        <i data-lucide="music-2"></i>
-        <span>Ambient</span>
-    </button>
+    <nav class="top-nav">
 
-    <button>
-        <i data-lucide="check-square"></i>
-        <span>Tasks</span>
-    </button>
+        <!-- TIMER -->
 
-    <button>
-        <i data-lucide="chart-no-axes-column"></i>
-        <span>Progress</span>
-    </button>
+        <button
+            id="timerButton"
+            type="button"
+        >
 
-</nav>
+            <i data-lucide="timer"></i>
 
-<div class="timer-panel" id="timerPanel">
+            <span>Timer</span>
 
-    <div class="timer-header">
-        <h2>Focus Timer</h2>
-
-        <button id="closeTimer">
-            <i data-lucide="x"></i>
-        </button>
-    </div>
-    <div class="timer-display" id="timerDisplay">
-        25:00.
-    </div>
-
-    <div class="timer-presets">
-
-        <button data-time="25">25 min</button>
-
-        <button data-time="50">50 min</button>
-
-        <button data-time="90">90 min</button>
-
-    </div>
-
-    <div class="timer-controls">
-
-        <button id="startTimer">
-            <i data-lucide="play"></i>
-            Start
         </button>
 
-        <button id="resetTimer">
-            <i data-lucide="rotate-ccw"></i>
-            Reset
+
+        <!-- AMBIENT -->
+
+        <button
+            id="ambientButton"
+            type="button"
+        >
+
+            <i data-lucide="music-2"></i>
+
+            <span>Ambient</span>
+
         </button>
+
+
+        <!-- TASKS -->
+
+        <button
+            id="tasksButton"
+            type="button"
+        >
+
+            <i data-lucide="check-square"></i>
+
+            <span>Tasks</span>
+
+        </button>
+
+
+        <!-- PROGRESS -->
+
+        <button
+            id="progressButton"
+            type="button"
+        >
+
+            <i data-lucide="chart-no-axes-column"></i>
+
+            <span>Progress</span>
+
+        </button>
+
+    </nav>
+
+
+    <!-- =========================
+         FOCUS TIMER PANEL
+    ========================== -->
+
+    <div
+        class="timer-panel"
+        id="timerPanel"
+    >
+
+        <!-- TIMER HEADER -->
+
+        <div class="timer-header">
+
+            <h2>Focus Timer</h2>
+
+            <button
+                id="closeTimer"
+                type="button"
+            >
+
+                <i data-lucide="x"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- TIMER DISPLAY -->
+
+        <div
+            class="timer-display"
+            id="timerDisplay"
+        >
+            25:00
+        </div>
+
+
+        <!-- TIMER PRESETS -->
+
+        <div class="timer-presets">
+
+            <button
+                type="button"
+                data-time="25"
+            >
+                25 min
+            </button>
+
+
+            <button
+                type="button"
+                data-time="50"
+            >
+                50 min
+            </button>
+
+
+            <button
+                type="button"
+                data-time="90"
+            >
+                90 min
+            </button>
+
+        </div>
+
+
+        <!-- TIMER CONTROLS -->
+
+        <div class="timer-controls">
+
+            <button
+                id="startTimer"
+                type="button"
+            >
+
+                <i data-lucide="play"></i>
+
+                Start
+
+            </button>
+
+
+            <button
+                id="resetTimer"
+                type="button"
+            >
+
+                <i data-lucide="rotate-ccw"></i>
+
+                Reset
+
+            </button>
+
+        </div>
 
     </div>
 
-</div>
 
-<!--<div class="cd-player" id="cdPlayer">
-    <video class="CD-video" autoplay muted loop playsinline>
-        <source src="video/cd.mp4" type="video/mp4">
-    </video>
-</div>-->
+    <!-- =========================
+         FUTURE PANELS
+         We'll build these next.
+    ========================== -->
 
-<script>
-    lucide.createIcons();
-</script>
+    <!-- Ambient panel will go here -->
 
+    <!-- Tasks panel will go here -->
 
-
-        <script src="js/theme.js"> </script>
-
-        </body>
-        </html>
+    <!-- Progress panel will go here -->
 
 
-        
+    <!-- =========================
+         LUCIDE ICON INITIALIZATION
+    ========================== -->
 
+    <script>
+        lucide.createIcons();
+    </script>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="js/theme.js"></script>
+
+
+</body>
+
+</html>
