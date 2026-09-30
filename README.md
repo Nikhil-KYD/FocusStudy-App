@@ -41,7 +41,7 @@ its simple:
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 ### Frontend
 
@@ -58,7 +58,7 @@ its simple:
 
 ---
 
-## 🎯 Vision
+## Vision
 
 Most productivity apps focus heavily on statistics, dashboards, and complicated features.
 
@@ -78,7 +78,7 @@ Future versions may include:
 
 ---
 
-## 🌐 Live Demo
+##  Check it out rightnow!!:
 
 Try FocusStudy here:
 
@@ -86,7 +86,7 @@ Try FocusStudy here:
 
 ---
 
-## 📌 Project Status
+##  Project Status
 
 🚧 **Actively developing**
 
