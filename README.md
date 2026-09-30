@@ -78,7 +78,7 @@ Future versions may include:
 
 ---
 
-##  Check it out rightnow!!:
+##  Check it out right now!!:
 
 Try FocusStudy here:
 
