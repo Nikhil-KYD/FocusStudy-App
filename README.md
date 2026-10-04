@@ -22,13 +22,13 @@
 
 Instead of feeling like a traditional productivity dashboard, FocusStudy combines useful study tools with an immersive atmosphere — letting you study while surrounded by cozy animated environments and customizable themes.
 
-The goal is simple:
+its simple:
 
 **Open FocusStudy → choose your environment → set your study session → focus.**
 
 ---
 
-## 🚀 Features
+## Features
 
 * ⏱️ **Study Timer** — Set and manage focused study sessions
 * 🎨 **Custom Themes** — Switch between different visual environments
@@ -41,7 +41,7 @@ The goal is simple:
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 ### Frontend
 
@@ -58,7 +58,7 @@ The goal is simple:
 
 ---
 
-## 🎯 Vision
+## Vision
 
 Most productivity apps focus heavily on statistics, dashboards, and complicated features.
 
@@ -78,7 +78,7 @@ Future versions may include:
 
 ---
 
-## 🌐 Live Demo
+##  Check it out right now!!:
 
 Try FocusStudy here:
 
@@ -86,7 +86,7 @@ Try FocusStudy here:
 
 ---
 
-## 📌 Project Status
+##  Project Status
 
 🚧 **Actively developing**
 
@@ -96,9 +96,9 @@ FocusStudy is currently being developed and new features are being added over ti
 
 <div align="center">
 
-### Made with ☕, code, and late-night study sessions.
+## Coffee helps me make these kinda cozy things </3 well.
 
-**FocusStudy — Find your space. Start your focus.**
+**FocusStudy — Make your time more prouctive and thanks hehe use it tho**
 
 </div>
 
