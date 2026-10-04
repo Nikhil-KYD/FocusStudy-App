@@ -375,9 +375,55 @@
 
 </div>
 
-    <!-- Tasks panel will go here -->
+   <!-- =========================
+     TASKS PANEL
+========================= -->
 
-    <!-- Progress panel will go here -->
+<div class="tasks-panel" id="tasksPanel">
+
+    <div class="tasks-header">
+
+        <div>
+            <h2>My Tasks</h2>
+            <p id="taskCount">0 tasks</p>
+        </div>
+
+        <button id="closeTasks" type="button">
+            <i data-lucide="x"></i>
+        </button>
+
+    </div>
+
+
+    <!-- Add Task -->
+
+    <div class="add-task">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="What do you need to do?"
+        >
+
+        <button id="addTaskButton" type="button">
+            <i data-lucide="plus"></i>
+        </button>
+
+    </div>
+
+
+    <!-- Task List -->
+
+    <div class="task-list" id="taskList">
+
+        <!-- Tasks will appear here -->
+
+    </div>
+
+</div>
+
+
+<!-- Progress panel will go here -->
 
 
     <!-- =========================
@@ -395,6 +441,7 @@
 
     <script src="js/theme.js"></script>
 <script src="js/ambient.js"></script>
+<script src="js/task.js"></script>
 
 
 </body>
